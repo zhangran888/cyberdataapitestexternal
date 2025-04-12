@@ -1,0 +1,8 @@
+1、该项目运行在Idea软件下，依赖插件PowerShell，File-Settings-Plugins-PowerShell
+2、运行步骤：
+    1.打开Termianl-在项目路径下执行命令如：D:\cyberdataapitestexternal>
+    2.运行当前目录下的bat文件、域名、port、用户名、密码（需要输入加密的密码）、http协议：
+    域名形式：.\test0412.bat cyberdata.demo.datacyber.com " "  cyberdatademo puDzq1TMhK/MFJBNlzF5Cg== https
+    IP形式：.\test0412.bat 172.18.1.146 30009 SuperAdmin v+JTMrvWOdvvwsmsHQoTYA== http
+    3.命令执行之后，会在控制台有对应的结果展示，当看到Press any key to continue . . .时，点击键盘Enter键
+    4.执行完成后，在当前项目下会出现combined_report文件，点击index.html，可以查看对应测试报告的输出情况
