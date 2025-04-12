@@ -5,7 +5,7 @@ chcp 65001
 setlocal enabledelayedexpansion
 
 :: 设置 JMeter 的 bin 目录
-set JMETER_HOME=D:\zr\jmeter-5.4.1
+set JMETER_HOME=..\jmeter-5.4.1
 set PATH=%JMETER_HOME%\bin;%PATH%
 
 :: 打印 JMeter 的路径
